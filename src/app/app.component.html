@@ -1,4 +1,8 @@
 <div>
   <h1>Wise Quotes</h1>
-  <p>Here are some of the  {{ quotes }}</p>
+  <ul>
+    <li *ngFor='let quote of quotes'>
+      {{quote}}
+    </li>
+</ul>
 </div>
