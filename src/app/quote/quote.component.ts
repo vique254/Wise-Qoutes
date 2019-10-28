@@ -14,6 +14,9 @@ export class QuoteComponent implements OnInit {
     {id:5,name:'Differences',description:'Women and foxes, being weak, are distinguished by superior tact'},
     {id:6,name:'Finish',description:'It does not matter how slowly you go, so long as you do not stop.'},
   ];
+  toggleDetails(index){
+    this.quotes[index].showDescription = !this.quotes[index].showDescription;
+  }
   constructor() { }
 
   ngOnInit() {
