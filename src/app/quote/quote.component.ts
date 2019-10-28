@@ -32,6 +32,7 @@ addNewQuote(quote){
   quote.completeDate = new Date(quote.completeDate)
   this.quotes.push(quote)
 }
+
   constructor() { }
 
   ngOnInit() {
