@@ -7,12 +7,12 @@ import {Quote} from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes:Quote[] = [
-    {id:1, name:'Life',description:'"Life can only be understood backwards, but it must be lived forward.",  – V.i.q.u.e'},
-    {id:2,name:'Home',description:'“A house is made with walls and beams. A home is made with love and dreams.” – Unknown!'},
-    {id:3,name:'Start over',description:'It is never too late to start again!!'},
-    {id:4,name:'Future',description:'The best thing about the future is that it comes only one day at a time.'},
-    {id:5,name:'Differences',description:'Women and foxes, being weak, are distinguished by superior tact!'},
-    {id:6,name:'Finish',description:'It does not matter how slowly you go, so long as you do not stop.'},
+    new  Quote(1,'Life','"Life can only be understood backwards, but it must be lived forward.",  – V.i.q.u.e', new Date(2019,4,16)),
+    new Quote(2, 'Home','“A house is made with walls and beams. A home is made with love and dreams.” – Unknown!', new Date(2019,7,21)),
+    new Quote(3,'Start over','It is never too late to start again!!',new Date (2009,7,16)),
+    new Quote(4,'Future','The best thing about the future is that it comes only one day at a time.',new Date (2009,7,16)),
+    new Quote(5,'Differences','Women and foxes, being weak, are distinguished by superior tact!',new Date (2010,2,26)),
+    new Quote(6,'Finish','It does not matter how slowly you go, so long as you do not stop.',new Date (2019,11,16)),
   ];
   toggleDetails(index){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
