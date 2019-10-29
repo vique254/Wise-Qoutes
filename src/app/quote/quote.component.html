@@ -8,6 +8,7 @@
       <div>
         <h6 id={{i}}>{{quote.name}} {{quote.completeDate|date}}</h6>
         <button (click)='toggleDetails(i)' class="btn btn-primary">Open</button>
+        <like-box></like-box>
       </div>
 
       <div *ngIf='quote.showDescription'>
