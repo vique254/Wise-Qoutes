@@ -1,25 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
-.btn-outline-danger{
-    color:black;
-    width:100px;
-    height:40px;
-}
- .btn-outline-danger:hover{
-   background-color:red;
- }
- .btn-success{
-    background-color:green;
-    height: 40px;
- }
- .container-fluid{
-     float:right;
-    display:block;
-    padding-top:-40%
- }
- textarea{
-     height:130px;
-     width:250px;
- }
- label{
-     font-size:30px;
- }
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/01/20/28/fall-1072821_960_720.jpg);
+    color :white;
+    font-size: 24px;
+    background-size: cover;
+    }
