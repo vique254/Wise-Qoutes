@@ -6,7 +6,7 @@
   <div class="col-md-6">
     <div *ngFor='let quote of quotes;let i = index'>
       <div>
-        <h6 id={{i}}>{{quote.name}} {{quote.completeDate|date}}</h6>
+        <h6 id={{i}}>{{quote.name}} {{quote.DateAgoPipe|date}}</h6>
         <button (click)='toggleDetails(i)' class="btn btn-primary">Open</button>
       
       </div>
