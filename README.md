@@ -1,7 +1,11 @@
 # Wise-Quotes
 
-##Author
+## Author
 Vique254
+## Description
+This is a website that enables users to view quotes and also add their on and are also able to like or dislike a quote
+## link
+https://vique254.github.io/Wise-Quotes/
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
